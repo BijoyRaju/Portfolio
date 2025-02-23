@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Bijoy Raju</title>
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="images/video-bg.mp4" type="video/mp4">
+        </video>
+
+<section id ="header">
+    <div id = "header">
+        <div class = "container">
+            <nav>
+                <h1 class = "logo"> BIJOY RAJU </h1>
+                <ul id = "sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+                <div class="header-text">
+                    <center>
+                    <p>H<span class="highlight">E</span>LLO I'M A</p>
+                    <h1>D<span class="highlight-1">E</span>VELOPER</h1>
+                    <p class = "inner-text">I transform complex problems into <span class="highlight">SMART</span> solutions.</p>
+                    </center>
+                </div>
+        </div>
+    </div>
+</section>
+
+<section id = "about">
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src = "images/img-01.jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <p class = "sub-title">ABOUT M<span class="highlight">E</span></p>
+                    <h1 class = "sub-title-2">WHO AM I <span class="highlight">?</span></h1>
+                    <p>Hi, I'm Bijoy Raju! I'm a BCA graduate with a diploma in Data Science. I have 8 months of <br>
+                    experience in SQL and am now expanding my skills in HTML, CSS, and JavaScript <br>
+                    to grow as a full-stack developer. Passionate about solving complex problems with data <br> 
+                    and code, I'm always eager to learn and innovate.
+                    </p>
+
+                    <div class = "tab-titles">
+                        <p class = "tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class = "tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span> <b>  2022 - 2023 </b></span> <br> Diploma in Data Science </li>
+                            <li><span> <b> 2019 - 2022 </b> </span> <br> BCA - Bachelor of Computer Applications </li>
+                            </span>
+                        </ul>
+                    </div>
+                    <div class = "tab-contents" id="experience">
+                        <ul>
+                            <li><span>  <b>2024 - Present </b> </span> <br> Intern (Bridgeon Solutions)</li>
+                            <li><span><b> 2023 - 2024 </b> </span> <br> Oracle APEX Developer </li>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- -------------------------Skill------------------------- -->
+
+<section id="skill">
+    <div class="container">
+        <p class="sub-title-skill">MY SKILLS</p>
+        <h1 class="sub-title-skill-2">WHAT I'M GOOD AT<span class="highlight"> ?</span></h1>
+
+        <div class="skills-container">
+            <div class="service-box">
+                <span class="service-icon"><i class="fa-brands fa-html5" aria-hidden="true"></i></span>
+                <h3>HTML</h3>
+                <p>The foundation of web development. I create structured, semantic, and accessible web pages.</p>
+            </div>
+
+            <div class="service-box">
+                <span class="service-icon"><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
+                <h3>CSS</h3>
+                <p>Bringing designs to life with layouts, animations, and responsiveness.</p>
+            </div>
+
+            <div class="service-box">
+                <span class="service-icon"><i class="fa fa-code" aria-hidden="true"></i></span>
+                <h3>JavaScript</h3>
+                <p>Adding interactivity, handling DOM manipulation, and working with APIs.</p>
+            </div>
+
+            <div class="service-box">
+                <span class="service-icon"><i class="fa fa-database" aria-hidden="true"></i></span>
+                <h3>SQL</h3>
+                <p>Writing efficient queries, managing databases, and optimizing performance.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- -------------------------Project------------------------- -->
+
+<section id="projects">
+    <div class="container">
+        <p class="sub-title-projects">MY PROJ<span class="highlight">E</span>CTS</p>
+        <h1 class="sub-title-projects-2">WHAT I’VE WORKED ON <span class="highlight">?</span></h1>
+
+        <div class="projects-container">
+            <div class="project-box">
+                <img src="images/linkedIn.png" alt="LinkedIn Clone">
+                <h3>LinkedIn Front Page Clone</h3>
+                <p>Built a responsive LinkedIn front page using HTML & CSS, replicating the original design.</p>
+                <a href="" target="_blank" class="project-btn">View Project</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- -------------------------Contact------------------------- -->
+<section id="contact">
+    <div class="container">
+        <p class="sub-title-contact"> CONTACT M<span class="highlight">E</span></p>
+        <h1 class="sub-title-contact-2">GET IN TOUCH</h1>
+        <div class = 'row'>
+            <div class=" contact-left">
+                <p><i class="fas fa-paper-plane"></i> bijoyraju66@gmail.com</p>
+                <p><i class= "fas fa-phone-square-alt"></i> +91 9846284412</p>
+                <p><i class="fas fa-map-marker-alt"></i> Kochi, Kerala</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1JqPDQ9Nk7/?mibextid=wwXIfr"> <i class = "fab fa-facebook"> </i> </a>
+                    <a href="https://github.com/BijoyRaju"> <i class = "fab fa-github"> </i> </a>
+                    <a href="https://www.instagram.com/bijoy_raju?igsh=MTB1YTM2aGV1ajdrOQ%3D%3D&utm_source=qr"> <i class = "fab fa-instagram"> </i> </a>
+                    <a href="https://www.linkedin.com/in/bijoy-raju/"> <i class = "fab fa-linkedin"> </i> </a>
+                </div>
+                <a href="images/Bijoy  CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <center><button type="submit" class="btn btn2">Submit</button></center>
+                </form>
+                <center><span id="msg"></span></center>
+            </div>
+        </div>
+    </section>    
+
+    <script>
+
+function opentab(tabname) {
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    for (var i = 0; i < tablinks.length; i++) {
+        tablinks[i].classList.remove("active-link");
+    }
+
+    for (var i = 0; i < tabcontents.length; i++) {
+        tabcontents[i].classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+    </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVNMAxH8pUi8Fs8xKiRoCr5AbP2-zEYUHlVTUnrsYhLgFZYHM11-tih9ZGh2HUZ1HDBg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+ 
+</script>
+
+<script>
+
+document.addEventListener("wheel", (event) => {
+    event.preventDefault(); // Prevent default scrolling
+    let sections = document.querySelectorAll("section");
+    let currentIndex = Math.round(window.scrollY / window.innerHeight);
+
+    if (event.deltaY > 0 && currentIndex < sections.length - 1) {
+        sections[currentIndex + 1].scrollIntoView({ behavior: "smooth" });
+    } else if (event.deltaY < 0 && currentIndex > 0) {
+        sections[currentIndex - 1].scrollIntoView({ behavior: "smooth" });
+    }
+});
+
+
+</script>
+
+
+</body>
+</html>
